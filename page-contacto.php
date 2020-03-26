@@ -21,13 +21,13 @@ get_header();
 <section id="cntct">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos="fade-right">
                 <h2 class="title">Contacto.</h2>
-                <a href="#">correo@marver.com</a>
-                <a href="#">(81) 1234 5678</a>
+                <p><a href="#">correo@marver.com</a></p>
+                <p><a href="#">(81) 1234 5678</a></p>
                 <h4>Domicilio</h4>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6" data-aos="fade-left">
                 <h2 class="title">Escríbenos.</h2>
                 <?php echo do_shortcode('[contact-form-7 id="51" title="Formulario de contacto 1"]'); ?>
             </div>

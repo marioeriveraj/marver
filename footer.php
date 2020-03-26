@@ -19,8 +19,8 @@ $container = get_theme_mod('understrap_container_type');
 <section id="cta">
     <div class="container">
         <div class="row align-items-center text-center">
-            <div class="col-sm-12">
-                <h2 class="title">Lorem ipsum dolor sit amet consetetur.</h2>
+            <div class="col-sm-6 m-auto" data-aos="fade-up">
+                <h2 class="title">Lorem ipsum dolor<br>sit amet consetetur.</h2>
                 <a class="btn btn-primary" href="#">Contactar</a>
             </div>
         </div>

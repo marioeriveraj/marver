@@ -1,0 +1,44 @@
+#cntct {
+  margin-top: 90px;
+  padding: 6rem 0;
+  .title {
+    color: $primary;
+  }
+  p {
+    a {
+      color: $black;
+    }
+  }
+  .wpcf7 {
+    p {
+      margin-bottom: 0;
+      label {
+        margin-bottom: 0;
+        span {
+          input {
+            border: none;
+            border-bottom: 1px solid $black;
+            border-radius: 0;
+          }
+          textarea {
+            border: none;
+            border-bottom: 1px solid $black;
+            border-radius: 0;
+          }
+        }
+      }
+      .wpcf7-submit {
+        width: auto;
+        line-height: 1;
+        background-color: $primary;
+        color: $white;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: darken($primary, $amount: 10%);
+          outline: none;
+        }
+      }
+    }
+  }
+}

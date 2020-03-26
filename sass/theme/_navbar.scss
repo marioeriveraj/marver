@@ -1,8 +1,24 @@
 #wrapper-navbar {
   .navbar {
     background-color: $white;
+    padding: 0.5rem 0;
     .custom-logo-link {
       max-width: 100px;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: $black;
+        }
+        &:hover,
+        &:active,
+        &:focus,
+        &.active {
+          .nav-link {
+            font-weight: bold;
+          }
+        }
+      }
     }
   }
 }

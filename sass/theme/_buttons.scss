@@ -1,0 +1,23 @@
+.btn {
+  border-radius: 10px;
+  padding: 0.75rem 2rem;
+  border: none;
+}
+.btn-primary {
+  background-color: $black;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($black, $amount: 10%);
+    outline: none;
+  }
+}
+.btn-secondary {
+  background-color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($primary, $amount: 10%);
+    outline: none;
+  }
+}

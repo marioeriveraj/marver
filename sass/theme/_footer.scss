@@ -1,0 +1,25 @@
+footer {
+  .redes {
+    a {
+      border: 1px solid $black;
+      border-radius: 40px;
+      width: 40px;
+      height: 40px;
+      line-height: 43px;
+      display: inline-block;
+      i {
+        font-size: 20px;
+        color: $black;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $primary;
+        border-color: $primary;
+        i {
+          color: $white;
+        }
+      }
+    }
+  }
+}

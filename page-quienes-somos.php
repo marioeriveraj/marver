@@ -22,10 +22,10 @@ get_header();
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-sm-6">
-                <div class="back" style="background-image: url('http://localhost/marver/wp-content/uploads/2020/03/23559595_10156130992143392_1589756109398107254_n.png');"></div>
+                <div class="back" style="background-image: url('http://localhost/marver/wp-content/uploads/2020/03/Group-3.png');" data-aos="zoom-in"></div>
             </div>
             <div class="col-sm-6">
-                <div class="p-cstm">
+                <div class="p-cstm" data-aos="fade-left">
                     <h2 class="title">Quiénes somos. </h2>
                     <p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
                         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
@@ -39,14 +39,14 @@ get_header();
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-sm-6">
-                <div class="p-cstm">
+                <div class="p-cstm" data-aos="fade-right">
                     <p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
 
                         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="back" style="background-image: url('http://localhost/marver/wp-content/uploads/2020/03/23559595_10156130992143392_1589756109398107254_n.png');"></div>
+                <div class="back" style="background-image: url('http://localhost/marver/wp-content/uploads/2020/03/Group-9.png');" data-aos="zoom-in"></div>
             </div>
         </div>
     </div>

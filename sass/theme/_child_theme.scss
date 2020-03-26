@@ -1,11 +1,30 @@
+@import "_fonts.scss";
+@import "_buttons.scss";
 @import "_navbar.scss";
+@import "_hero.scss";
+@import "_about.scss";
+@import "_srvcs.scss";
+@import "_about-page.scss";
+@import "_eventos-page.scss";
+@import "_cntct.scss";
+@import "_call-to-action.scss";
+@import "_footer.scss";
 html {
+  overflow-x: hidden;
   body {
+    overflow-x: hidden;
+    font-family: "Gordita";
+    font-size: 16px;
     .back {
       height: 100%;
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
+      position: relative;
+    }
+    .title {
+      font-family: "Playfair Display";
+      font-size: 40px;
     }
   }
 }

@@ -1,0 +1,31 @@
+#srvcs {
+  padding: 6rem 0;
+  background-color: $gray;
+  .title {
+    color: $primary;
+    margin-bottom: 2rem;
+  }
+  .back {
+    position: relative;
+    padding-bottom: 100%;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba($black, $alpha: 0.3);
+    }
+    .txt {
+      left: 10%;
+      bottom: 10%;
+      position: absolute;
+      .title {
+        color: $white;
+        font-size: 40px;
+      }
+    }
+  }
+}
