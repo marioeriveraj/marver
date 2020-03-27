@@ -11536,6 +11536,9 @@ a.skip-link {
     color: #1d1d1d; }
   #wrapper-navbar .navbar .navbar-nav .nav-item:hover .nav-link, #wrapper-navbar .navbar .navbar-nav .nav-item:active .nav-link, #wrapper-navbar .navbar .navbar-nav .nav-item:focus .nav-link, #wrapper-navbar .navbar .navbar-nav .nav-item.active .nav-link {
     font-weight: bold; }
+  @media (max-width: 575.98px) {
+    #wrapper-navbar .navbar {
+      padding: 0.5rem; } }
 
 #hero .col-6 {
   max-height: 100%; }
@@ -11554,11 +11557,31 @@ a.skip-link {
     #hero .cta-btn .txt .title {
       color: #ffffff; }
 
+@media (max-width: 575.98px) {
+  #hero .cta-btn .txt {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    padding: 1.5rem; }
+    #hero .cta-btn .txt .title {
+      font-size: 30px;
+      display: inline-block; }
+    #hero .cta-btn .txt .btn,
+    #hero .cta-btn .txt .wpcf7 input[type=submit], .wpcf7 #hero .cta-btn .txt input[type=submit] {
+      display: inline-block; } }
+
 #about .p-cstm {
   padding: 7rem; }
   #about .p-cstm .title {
     color: #197b73;
     margin-bottom: 2rem; }
+
+@media (max-width: 575.98px) {
+  #about .p-cstm {
+    padding: 2.5rem; } }
 
 #srvcs {
   padding: 6rem 0;
@@ -11585,6 +11608,11 @@ a.skip-link {
       #srvcs .back .txt .title {
         color: #ffffff;
         font-size: 40px; }
+  @media (max-width: 575.98px) {
+    #srvcs .col-sm-6 {
+      margin-bottom: 2rem; }
+      #srvcs .col-sm-6:last-child {
+        margin-bottom: 0; } }
 
 #hero-about {
   margin-top: 90px; }
@@ -11593,12 +11621,23 @@ a.skip-link {
     #hero-about .p-cstm .title {
       color: #197b73;
       margin-bottom: 2rem; }
+  @media (max-width: 575.98px) {
+    #hero-about .back {
+      min-height: 250px; }
+    #hero-about .p-cstm {
+      padding: 2.5rem; } }
 
 #sctn-abt .p-cstm {
   padding: 7rem; }
   #sctn-abt .p-cstm .title {
     color: #197b73;
     margin-bottom: 2rem; }
+
+@media (max-width: 575.98px) {
+  #sctn-abt .back {
+    min-height: 250px; }
+  #sctn-abt .p-cstm {
+    padding: 2.5rem; } }
 
 #hero-crprtvs,
 #hero-bds {
@@ -11688,6 +11727,12 @@ footer .redes a {
     border-color: #197b73; }
     footer .redes a:hover i, footer .redes a:focus i, footer .redes a:active i {
       color: #ffffff; }
+
+@media (max-width: 575.98px) {
+  footer .custom-logo-link {
+    max-width: 200px;
+    margin-bottom: 1rem;
+    margin-right: 0; } }
 
 html {
   overflow-x: hidden; }

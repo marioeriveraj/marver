@@ -22,4 +22,11 @@ footer {
       }
     }
   }
+  @media (max-width: 575.98px) {
+    .custom-logo-link {
+      max-width: 200px;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+  }
 }

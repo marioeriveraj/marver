@@ -22,10 +22,11 @@ function theme_enqueue_styles()
     // Get the theme data
     $the_theme = wp_get_theme();
     wp_enqueue_style('child-understrap-styles', get_stylesheet_directory_uri() . '/css/child-theme.min.css', array(), $the_theme->get('Version'));
-    wp_enqueue_style('aos', 'https://unpkg.com/aos@2.3.1/dist/aos.css',);
+    wp_register_style('aos-style', 'https://unpkg.com/aos@2.3.1/dist/aos.css', array(), '1.0', false);
+    wp_enqueue_style('aos-style'); // Enqueue it!
     wp_enqueue_script('jquery');
     wp_enqueue_script('child-understrap-scripts', get_stylesheet_directory_uri() . '/js/child-theme.min.js', array(), $the_theme->get('Version'), true);
-    wp_enqueue_script('aos', 'https://unpkg.com/aos@2.3.1/dist/aos.js');
+    wp_enqueue_script('aos',  'https://unpkg.com/aos@2.3.1/dist/aos.js', '1.0', true);
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }
@@ -41,7 +42,9 @@ function aos_init()
 {
 ?>
     <script>
-        AOS.init();
+        AOS.init({
+            disable: 'mobile'
+        });
     </script>
 <?php
 }

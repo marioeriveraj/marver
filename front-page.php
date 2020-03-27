@@ -29,7 +29,7 @@ get_header();
             </div>
         </div>
         <div class="row no-gutters h-25">
-            <div class="col-6">
+            <div class="col-sm-6">
                 <div class="cta-btn" data-aos="fade-right">
                     <div class="txt">
                         <h1 class="title">Lorem ipsum dolor sit amet consetetur.</h1>
@@ -37,7 +37,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
                 <div class="back" style="background-image: url('http://localhost/marver/wp-content/uploads/2020/03/23559595_10156130992143392_1589756109398107254_n.png');" data-aos="zoom-in"></div>
             </div>
         </div>
